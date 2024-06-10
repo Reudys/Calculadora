@@ -16,7 +16,7 @@ namespace Calculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Suma());
+            Application.Run(new frmCalculadora());
         }
     }
 }

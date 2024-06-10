@@ -5,6 +5,6 @@ C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\obj\Deb
 C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
 C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\bin\Debug\Calculadora.exe
 C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
-C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\obj\Debug\Calculadora.Suma.resources
 C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Rey\Desktop\Aplicaciones\Programs\repos\Calculadora\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
