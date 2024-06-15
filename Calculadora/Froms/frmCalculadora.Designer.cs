@@ -39,7 +39,7 @@ namespace Calculadora
             // txtRespuesta
             // 
             this.txtRespuesta.AutoSize = true;
-            this.txtRespuesta.Location = new System.Drawing.Point(428, 204);
+            this.txtRespuesta.Location = new System.Drawing.Point(375, 113);
             this.txtRespuesta.Name = "txtRespuesta";
             this.txtRespuesta.Size = new System.Drawing.Size(16, 17);
             this.txtRespuesta.TabIndex = 15;
@@ -47,7 +47,7 @@ namespace Calculadora
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(65, 247);
+            this.btnSalir.Location = new System.Drawing.Point(10, 147);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(123, 46);
             this.btnSalir.TabIndex = 14;
@@ -57,7 +57,7 @@ namespace Calculadora
             // 
             // btnSumar
             // 
-            this.btnSumar.Location = new System.Drawing.Point(474, 247);
+            this.btnSumar.Location = new System.Drawing.Point(419, 147);
             this.btnSumar.Name = "btnSumar";
             this.btnSumar.Size = new System.Drawing.Size(123, 46);
             this.btnSumar.TabIndex = 13;
@@ -68,7 +68,7 @@ namespace Calculadora
             // txtNum2
             // 
             this.txtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum2.Location = new System.Drawing.Point(433, 165);
+            this.txtNum2.Location = new System.Drawing.Point(378, 65);
             this.txtNum2.Margin = new System.Windows.Forms.Padding(5);
             this.txtNum2.Name = "txtNum2";
             this.txtNum2.Size = new System.Drawing.Size(307, 34);
@@ -77,7 +77,7 @@ namespace Calculadora
             // txtNum1
             // 
             this.txtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum1.Location = new System.Drawing.Point(65, 164);
+            this.txtNum1.Location = new System.Drawing.Point(10, 64);
             this.txtNum1.Margin = new System.Windows.Forms.Padding(5);
             this.txtNum1.Name = "txtNum1";
             this.txtNum1.Size = new System.Drawing.Size(307, 34);
@@ -87,7 +87,7 @@ namespace Calculadora
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(244, 203);
+            this.label3.Location = new System.Drawing.Point(189, 103);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(134, 29);
@@ -99,7 +99,7 @@ namespace Calculadora
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(424, 106);
+            this.label2.Location = new System.Drawing.Point(369, 6);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 29);
@@ -110,7 +110,7 @@ namespace Calculadora
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(60, 106);
+            this.label1.Location = new System.Drawing.Point(5, 6);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 29);
@@ -119,7 +119,7 @@ namespace Calculadora
             // 
             // btnRestar
             // 
-            this.btnRestar.Location = new System.Drawing.Point(603, 247);
+            this.btnRestar.Location = new System.Drawing.Point(548, 147);
             this.btnRestar.Name = "btnRestar";
             this.btnRestar.Size = new System.Drawing.Size(123, 46);
             this.btnRestar.TabIndex = 16;
@@ -129,7 +129,7 @@ namespace Calculadora
             // 
             // btnDividir
             // 
-            this.btnDividir.Location = new System.Drawing.Point(603, 299);
+            this.btnDividir.Location = new System.Drawing.Point(548, 199);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(123, 46);
             this.btnDividir.TabIndex = 17;
@@ -139,7 +139,7 @@ namespace Calculadora
             // 
             // btnMultiplicar
             // 
-            this.btnMultiplicar.Location = new System.Drawing.Point(474, 299);
+            this.btnMultiplicar.Location = new System.Drawing.Point(419, 199);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(123, 46);
             this.btnMultiplicar.TabIndex = 18;
@@ -151,7 +151,7 @@ namespace Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(692, 254);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnDividir);
             this.Controls.Add(this.btnRestar);
@@ -163,6 +163,8 @@ namespace Calculadora
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmCalculadora";
             this.Text = "frmCalculadora";
             this.ResumeLayout(false);

@@ -15,6 +15,7 @@ namespace Calculadora
         public frmCalculadora()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         //---------------Metodos--------------
@@ -59,11 +60,16 @@ namespace Calculadora
             int num = int.Parse(txtNum1.Text);
             int mun = int.Parse(txtNum2.Text);
 
-            int divi = num / mun;
+            if (num != 0 && mun != 0) {
+                int divi = num / mun;
 
-            string txtDivi = divi.ToString();
+                string txtDivi = divi.ToString();
 
-            return txtDivi;
+                return txtDivi;
+            }else
+            {
+                return "No se puede dividir entre 0";
+            }
         }
         //---------------Botones-------------------
         private void btnSumar_Click(object sender, EventArgs e)
