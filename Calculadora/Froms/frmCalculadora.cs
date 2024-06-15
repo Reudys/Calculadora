@@ -72,25 +72,25 @@ namespace Calculadora
             }
         }
         //---------------Botones-------------------
-        private void btnSumar_Click(object sender, EventArgs e)
+        private void imgSuma_Click(object sender, EventArgs e)
         {
             Sumar();
             txtRespuesta.Text = Sumar();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             Restar();
             txtRespuesta.Text = Restar();
         }
 
-        private void btnMultiplicar_Click(object sender, EventArgs e)
+        private void imgMulti_Click(object sender, EventArgs e)
         {
             Multiplicar();
             txtRespuesta.Text = Multiplicar();
         }
 
-        private void btnDividir_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             Dividir();
             txtRespuesta.Text = Dividir();
@@ -99,6 +99,11 @@ namespace Calculadora
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmCalculadora_Load(object sender, EventArgs e)
+        {
+
         }
     }   
 }
