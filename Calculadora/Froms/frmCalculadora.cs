@@ -71,7 +71,7 @@ namespace Calculadora
                 return "No se puede dividir entre 0";
             }
         }
-        //---------------Botones-------------------
+        //---------------ImgBtn-------------------
         private void imgSuma_Click(object sender, EventArgs e)
         {
             Sumar();
