@@ -105,5 +105,11 @@ namespace Calculadora
         {
 
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtNum1.Clear();
+            txtNum2.Clear();
+        }
     }   
 }

@@ -34,6 +34,7 @@ namespace Calculadora
             this.imgMulti = new System.Windows.Forms.PictureBox();
             this.imgResta = new System.Windows.Forms.PictureBox();
             this.imgSuma = new System.Windows.Forms.PictureBox();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgDivi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMulti)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgResta)).BeginInit();
@@ -51,7 +52,7 @@ namespace Calculadora
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(10, 147);
+            this.btnSalir.Location = new System.Drawing.Point(12, 196);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(123, 46);
             this.btnSalir.TabIndex = 14;
@@ -155,11 +156,22 @@ namespace Calculadora
             this.imgSuma.TabStop = false;
             this.imgSuma.Click += new System.EventHandler(this.imgSuma_Click);
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(12, 144);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(123, 46);
+            this.btnLimpiar.TabIndex = 23;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(358, 254);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.imgDivi);
             this.Controls.Add(this.imgMulti);
             this.Controls.Add(this.imgResta);
@@ -205,5 +217,6 @@ namespace Calculadora
         private System.Windows.Forms.PictureBox imgResta;
         private System.Windows.Forms.PictureBox imgMulti;
         private System.Windows.Forms.PictureBox imgDivi;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
